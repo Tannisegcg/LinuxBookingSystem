@@ -7,7 +7,7 @@ Creating staff.txt…"
 	echo "Requisition_ID:Staff_ID:Applicant_Name:Faculty:Contact_Number:Email" >> staff.txt
 fi
 
-if [ ! -f requisition.tx t]
+if [ ! -f requisition.txt ]
 	then
 	echo "Book requistion file does not exist.
 Creating requisition.txt…"
