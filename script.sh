@@ -27,6 +27,10 @@ menuStart="Book Requisition Management System
 
 printf "%s" "$menuStart"
 read choiceStart
+
+while [ choiceStart != "q" ] || [ choiceStart != "Q" ]
+
+do
 case "$choiceStart" in
 a|A)
 	echo -n "Add New Book Requisition Details Form
@@ -72,3 +76,4 @@ Author: "
 	read inputBookStatus
 
 esac
+done
